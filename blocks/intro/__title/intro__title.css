@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Inter-Black';
+  src: url("/fonts/Inter_Web/Inter-Black.woff2") format("woff2"),
+       url("/fonts/Inter_Web/Inter-Black.woff") format("woff");
+}
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Inter-Black', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 54px;
+  line-height: 1.2;
+  max-width: 690px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}

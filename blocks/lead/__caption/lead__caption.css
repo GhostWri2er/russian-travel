@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url("/fonts/Inter_Web/Inter-Regular.woff2") format("woff2"),
+       url("/fonts/Inter_Web/Inter-Regular.woff") format("woff");
+}
+
+.lead__caption {
+  display: block;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  min-width: 158px;
+  margin-top: 8px;
+  margin-bottom: 92px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .lead__caption {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-bottom: 64px;
+  }
+}

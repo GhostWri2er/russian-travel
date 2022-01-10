@@ -1,0 +1,10 @@
+.place__block {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 425px) {
+  .place__block {
+    flex-direction: column;
+  }
+}

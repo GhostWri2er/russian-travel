@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url("/fonts/Inter_Web/Inter-Regular.woff2") format("woff2"),
+       url("/fonts/Inter_Web/Inter-Regular.woff") format("woff");
+  }
+
+  .footer__author {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    margin-right: 18px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
