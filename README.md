@@ -19,4 +19,6 @@
 
 **Ссылка на GitHub Pages**
 
+* [Ссылка на GitHub Pages](https://ghostwri2er.github.io/russian-travel/)
+
 
