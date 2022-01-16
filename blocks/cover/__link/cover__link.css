@@ -19,7 +19,7 @@
   background-image: linear-gradient(rgba(42,44,47,.8), rgba(42,44,47,.8)), url(../../../images/cover-trains.jpg);
 }
 
-@media screen (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover__link {
     max-width: 100%;
   }
