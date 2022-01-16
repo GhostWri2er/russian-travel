@@ -1,50 +1,42 @@
 .photo-grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 16px;
-  margin-bottom: 92px;
+  max-width: 1184px;
+  padding: 0 48px 92px 48px;
+  margin: 0 auto;
+
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 213px);
-    gap: 16px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(4, 225px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 14px;
+    max-width: 928px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
-    grid-template-columns: repeat(2, 352px);
-    grid-template-rows: repeat(6, 264px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     gap: 16px;
+    margin: 0 24px 70px 24px;
+    padding: 0;
+
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 424px) {
   .photo-grid {
-    grid-template-columns: repeat(1, 352px);
-    grid-template-rows: repeat(12, 264px);
-    gap: 16px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .photo-grid {
-    grid-template-columns: repeat(1, 288px);
-    grid-template-rows: repeat(12, 216px);
-    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
     justify-items: center;
+    margin: 0 16px;
   }
 }

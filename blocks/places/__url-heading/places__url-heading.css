@@ -1,8 +1,9 @@
-.intro__item {
-  display: block;
+.places__url-heading {
+  font-weight: normal;
+  color: #aaa;
   font-size: 12px;
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;

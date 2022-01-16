@@ -1,0 +1,18 @@
+.places__link {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  transition: opacity 0.2s linear;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.places__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.8;
+}
