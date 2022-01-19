@@ -4,21 +4,29 @@
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.1;
+  line-height: 1;
   margin: 0 0 32px 0;
   padding: 0;
-  grid-column: 2/3;
-  grid-row: 2/3;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 619px) {
   .cover__title {
-    margin: 0 0 16px 0;
-    font-size: 52px;
+    max-width: 288px;
+    font-size: 32px;
+    margin-bottom: 16px;
   }
 }
+
+@media screen and (max-width: 424px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
+
 

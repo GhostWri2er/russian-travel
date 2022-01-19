@@ -3,6 +3,8 @@
   align-self: center;
   max-width: 984px;
   margin: 0 auto;
+  padding: 0 148px;
+  row-gap: 80px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -14,12 +16,15 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    padding: 0;
+    row-gap: 72px;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .places {
+    padding: 0;
     max-width: 320px;
+    row-gap: 50px;
   }
 }

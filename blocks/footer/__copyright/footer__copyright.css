@@ -2,28 +2,15 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.2;
-  color: #fff;
-  text-decoration: none;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
 }
 
-@media screen and (max-width: 1023px) {
-  .footer__copyright {
-    margin-left: 16px;
+@media screen and (max-width: 689px) {
+  .footer__copyright{
+  margin-top: 48px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer__copyright {
-    margin-left: 16px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .footer__copyright {
-    margin-left: 16px;
-  }
-}
