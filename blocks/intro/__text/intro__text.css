@@ -4,11 +4,13 @@
   line-height: 1.63;
   font-weight: normal;
   text-align: left;
+  max-width: 690px;
   margin: 40px 0 33px 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .intro__text:nth-child(1) {
