@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: 16px;
   }

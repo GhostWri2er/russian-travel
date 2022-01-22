@@ -8,7 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 767px) {
   .footer__copyright{
   margin-top: 48px;
   }

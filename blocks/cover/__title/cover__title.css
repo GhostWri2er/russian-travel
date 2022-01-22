@@ -13,15 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 619px) {
-  .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

@@ -2,9 +2,8 @@
   display: block;
   font-size: 16px;
   line-height: 1.63;
-  font-weight: normal;
+  font-weight: 400;
   text-align: left;
-  max-width: 690px;
   margin: 40px 0 33px 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -17,14 +16,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .intro__text {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 424px) {
-  .intro__text {
-    max-width: 288px;
-  }
-}
